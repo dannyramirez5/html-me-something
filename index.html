@@ -33,7 +33,7 @@
     <article>
         <section>
             <h2>
-                Deaths
+                Data Wrangling
             </h2>
             <p>
                 When looking to compare the death toll for each virus I searched for data at the most granular,
@@ -63,12 +63,59 @@
                 I was not able to find a good COVID data set on Kaggle so I turned to Google and found a table
                 directly from the CDC. Unfortunately it is from 2018 but it's the latest I could find that had the
                 necessary fields and time span.
+                Something to note about this data are how the death numbers are aggregated. The table has a column for
+                flu deaths and a column for pneumonia deaths. The reason pneumonia deaths are in play is because of the
+                close association pneumonia has with the flu. Although influenza can lead to bacterial pneumonia, it is
+                not exclusively the reason a person can develop pneumonia. For this reason I cannot stand by these
+                influenza related death numbers 100% as I know going in to the analysis that the numbers are skewed and
+                much
+                higher than what they actually are. In essence, take the flu numbers with a grain of salt and think of
+                them as the absolute worst case scenario.
+            </p>
+            <br>
+            <div class='tableauPlaceholder' id='viz1588821305214' style='position: relative'><noscript><a href='#'><img
+                            alt=' '
+                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid-19DeathsvsFlu&#47;Sheet1&#47;1_rss.png'
+                            style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='Covid-19DeathsvsFlu&#47;Sheet1' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid-19DeathsvsFlu&#47;Sheet1&#47;1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' /></object></div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1588821305214'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '90%'; vizElement.style.height = (divElement.offsetWidth * 0.50) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <br>
+
+            <h2>
+                Findings
+            </h2>
+            <p>
+                Again, I cant reiterate enough how the flu deaths are significantly higher than they really are and to
+                take this total with a grain of salt.
+                <br>
+                Before I continue, I must explain what standard deviation is as not everyone is familiar with the
+                concept.
+
+
+
 
 
 
 
 
             </p>
+
+
+
 
 
 

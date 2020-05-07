@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html class="font">
 
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="normalization.css">
     <title>
         COVID-19 vs. Influenza
-        <link rel="stylesheet" type="text/css" href="styles.css">
     </title>
 </head>
 
@@ -18,13 +19,14 @@
     <br>
     <br>
     <p>
-        <h3>
+        <h3 class="subtitlePadding">
             So basically there's a narrative being propagated that COVID-19 (Coronavirus) is no more dangerous than
             Influenza
-            (Flu) and should be treated as such. I'm hoping to get to the bottom of that using the data that's currently
+            (Flu) and should be treated as such. I'm hoping to look into that using the data that's currently
             available.
             <br>
-            I was hoping to use the most current data but unfortunately that isn't always available or complete. For
+            <br>
+            It was my goal to use the most current data but unfortunately that isn't always available or complete. For
             this analysis I used 2018 Flu data as it was the latest year I could find with complete data.
         </h3>
     </p>
@@ -32,7 +34,7 @@
 <br>
 <main>
     <article>
-        <section>
+        <section class="bodyPadding">
             <h2>
                 Data Wrangling
             </h2>
@@ -73,6 +75,27 @@
                 higher than what they actually are. In essence, take the flu numbers with a grain of salt and think of
                 them as the absolute worst case scenario.
             </p>
+        </section>
+        <section class="bodyPadding">
+            <br>
+
+            <h2>
+                Findings
+            </h2>
+            <p>
+                Again, I cant reiterate enough how the flu deaths are significantly higher than they really are and to
+                take this total with a grain of salt.
+                <br>
+                Before I continue, I must explain what standard deviation is as not everyone is familiar with the
+                concept.
+
+
+
+
+
+            </p>
+        </section>
+        <section>
             <br>
             <div class='tableauPlaceholder' id='viz1588821305214' style='position: relative'><noscript><a href='#'><img
                             alt=' '
@@ -92,35 +115,8 @@
                     <param name='display_overlay' value='yes' />
                     <param name='display_count' value='yes' /></object></div>
             <script type='text/javascript'>
-                var divElement = document.getElementById('viz1588821305214'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '90%'; vizElement.style.height = (divElement.offsetWidth * 0.50) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                var divElement = document.getElementById('viz1588821305214'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = "1000px"; vizElement.style.height = "650px"; vizElement.style.alignSelf = "center"; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);
             </script>
-            <br>
-
-            <h2>
-                Findings
-            </h2>
-            <p>
-                Again, I cant reiterate enough how the flu deaths are significantly higher than they really are and to
-                take this total with a grain of salt.
-                <br>
-                Before I continue, I must explain what standard deviation is as not everyone is familiar with the
-                concept.
-
-
-
-
-
-
-
-
-            </p>
-
-
-
-
-
-
-
         </section>
     </article>
 
